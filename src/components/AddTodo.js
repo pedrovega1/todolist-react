@@ -15,7 +15,7 @@ function AddTodo({ todo, setTodo }) {
     }
 
     return (
-        <div className="flex justify-center items-center h-screen">
+        <div className="flex justify-center items-center">
             <div className="w-1/3 p-4 border border-gray-300 rounded">
                 <input
                     placeholder="Type a task"

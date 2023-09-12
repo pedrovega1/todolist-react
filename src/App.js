@@ -26,8 +26,8 @@ function App() {
   return (
     <div className="bg-gray-200 min-h-screen">
       <Header />
-      <div className="container mx-auto p-4">
-        <h1 className="text-3xl font-semibold mb-4">Todo List</h1>
+      <div className="mx-auto p-4">
+        <h1 className="text-3xl font-semibold mb-4 text-blue-700 text-center">Todo List</h1>
         <AddTodo todo={todo} setTodo={setTodo} />
         <TodoList todo={todo} setTodo={setTodo} />
       </div>
